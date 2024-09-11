@@ -1,0 +1,19 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+table{
+    width: 600px;
+}
+table,th,td{
+    border: 2px solid gray;
+    border-radius: 10px;
+    border-collapse: separate; 
+    /* seprate by deafault when collapse don't apply radius  */
+    border-spacing: 10px 50px; 
+    /* border-spacing is LR TB */
+    vertical-align: auto;
+    caption-side: bottom;
+    empty-cells: hide;
+    table-layout: auto;
+}

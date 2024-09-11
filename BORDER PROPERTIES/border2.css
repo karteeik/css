@@ -1,0 +1,12 @@
+.border{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-width: 5px 10px 5px 10px;
+    border-style: solid dotted double ridge;
+    border-color: red blue orange yellow;
+    border-radius: 10px 30px 20px 15px;
+}
+.table{
+   border-collapse: collapse;
+}

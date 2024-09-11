@@ -1,0 +1,11 @@
+.border{
+    width: 550px;
+    margin: 100px auto;
+    border-width: 10px 10px;
+    border-color: red green blue orange ;
+    border-style: groove;
+}
+.border h1,p{
+    margin: 20px;
+    padding: 10px 0px;
+}

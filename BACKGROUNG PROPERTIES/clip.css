@@ -1,0 +1,20 @@
+.rem{
+    width: 640px;
+    height: 400px;
+    margin: 50px auto;
+    color: #f00;
+    background-color:#ff0;
+    border: 50px dotted #f00;
+    padding: 40px;
+    background-clip: content-box;
+    /* color specify property bg-clip : border-box ,padding-box(by deafault) ,content-box */
+}
+.rem p{
+    margin: 20px 0px 0px 0px;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rem h1{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

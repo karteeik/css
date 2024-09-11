@@ -1,0 +1,24 @@
+h1{
+    font-family: Verdana;
+}
+p.para1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 40px;    /* 24px is normal*/
+} 
+article{
+    font: italic small-caps bolder 30px/30px arial ;
+    /* style varient weight size line-height family */
+}
+h1.google{
+        font-family: "Aladin", system-ui;
+}
+p.para{
+    font-family: "Aboreto", system-ui;
+}
+h2{
+    font-family: "Aguafina Script", cursive;
+}

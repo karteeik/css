@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 700px ;
+    margin: 50px auto;
+    padding: 20px;
+    text-transform: capitalize;
+    background-image: radial-gradient(circle at bottom, yellow,red,green,blue);
+}
+h1{
+    padding: 20px 0px;
+}

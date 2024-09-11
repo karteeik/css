@@ -1,0 +1,24 @@
+/* absolute - cm,mm,inch,px,pt,pc
+   relative - em,rem,vh,vw,%  */
+html{
+    font-size: 15px;
+}
+.parent{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid red;
+    font-size: 30px;
+}
+.child{
+    width: 50%;
+    border: 2px solid blue;
+    font-size: 0.5em;
+    /* 0.5*30px = 15px */
+}
+.first{
+    font-size: 2rem;
+    /* 15px*2rem */
+}
+.second{
+    font-size: 4rem;
+}

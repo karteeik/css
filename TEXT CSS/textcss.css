@@ -1,0 +1,11 @@
+.text1{
+    color: blue;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-indent: 50px;
+    text-align: justify;
+}
+.text2{
+    text-transform: capitalize;
+    text-decoration: underline;
+}

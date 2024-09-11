@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+p{
+    background-color: red;
+    color: azure;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+ol{
+    list-style-type: gujarati;
+    list-style-position: inside;
+}
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+    /* outside by deafault */
+    /* search iconfinder for list-style-images */
+    list-style-image: url('arraw.png');
+    /* list style is group of property*/
+    /* list-style: lower-roman inside url('arraw.png'); */
+}

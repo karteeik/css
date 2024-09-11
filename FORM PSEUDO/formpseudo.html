@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PSEUDO</title>
+    <link rel="stylesheet" href="formpseudo.css">
+</head>
+<body>
+    <div class="mainbox">
+        <div class="reg">
+            <h1>login form</h1>
+            <br>
+            <div class="name"> 
+                <form>
+                <label for="fname">first name : </label><br>
+                <input type="text" name="fname" placeholder="enter your first name" autocomplete="off" required><br><br>
+                <label for="fname">middle name : </label><br>
+                <input type="text" name="fname" placeholder="enter your middle name" autocomplete="off" disabled><br><br>
+                <label for="fname">last name : </label><br>
+                <input type="text" name="fname" placeholder="enter your last name" autocomplete="off" readonly value="only read"><br><br>
+                <label for="bdate">birthdate : </label><br>
+                <input type="date" name="bdate"><br><br>
+                <label for="gender">gender : </label><br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">male</label><br>
+                <input type="radio" name="gender" id="female" value="female" checked>
+                <label for="female">female</label><br><br>
+                <label for="age">age : </label><br>
+                <input type="number" name="age" placeholder="enter your age" min="18" max="40"><br><br>
+                known language : <br>
+                <input type="checkbox" name="fav-lang" id="gujarati" value="gujarati">
+                <label for="gujarati">gujarati</label><br>
+                <input type="checkbox" name="fav-lang" id="hindi" value="hindi">
+                <label for="hindi">hindi</label><br>
+                <input type="checkbox" name="fav-lang" id="english" value="english">
+                <label for="english">english</label><br><br>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

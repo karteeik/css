@@ -1,0 +1,14 @@
+@media screen{
+    p{
+        text-transform: uppercase;
+    }
+}
+@media print{
+    p{
+        text-transform: capitalize;
+        width: 50%;
+    }
+    img{
+        display: none;
+    }
+}

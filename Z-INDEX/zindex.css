@@ -1,0 +1,35 @@
+.main{
+    width: 50%;
+    margin: 30px;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: relative;
+}
+.sq1{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: brown;
+    z-index: 1;
+    position: relative;
+}
+.sq2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: green;
+    z-index: 2;
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+.sq3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: blue;
+    z-index: 3;
+    position: relative;
+    top: 200px;
+    left: -200px;
+}

@@ -1,0 +1,22 @@
+/* ( :: - known pseudo element selector) */
+h1::before{
+    content: url('eye.png');
+}
+h1::after{
+    content: url('eye.png');
+}
+p::first-letter{
+    color: brown;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+p::first-line{
+    color: blue;
+}
+::marker{
+    color: red;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}

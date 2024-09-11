@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes words {
+    0%{background-color: aqua;}
+    50%{color: blue; width: 400px;}
+    100%{text-transform: uppercase;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    animation-name: words;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    animation-name: words;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes roll {
+    0%{background-color: aqua; border-radius: 0%;}    
+    10%{background-color: blue; border-radius: 10%;}    
+    20%{background-color: blueviolet; border-radius: 20%;}    
+    30%{background-color: indianred; border-radius: 30%;}    
+    40%{background-color: wheat; border-radius: 40%;}    
+    50%{background-color: olivedrab; border-radius: 50%;}    
+    60%{background-color: lawngreen; border-radius: 40%;}    
+    70%{background-color: darkgrey; border-radius: 30%;}    
+    80%{background-color: crimson; border-radius: 20%;}    
+    90%{background-color: darkolivegreen; border-radius: 10%;}    
+    100%{background-color: coral; border-radius: 0%;}    
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    margin: 50px auto;
+    animation-name: roll;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: normal;
+}

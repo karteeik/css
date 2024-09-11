@@ -1,0 +1,13 @@
+.box{
+    column-count: 3;
+    column-gap: 20px;
+    /* column-rule-width: 5px;
+    column-rule-style: solid;
+    column-rule-color: blue; */
+    column-rule: 5px solid blue;
+    column-width: 300px;
+    /* work as media query */
+}
+h1{
+    column-span: all;
+}

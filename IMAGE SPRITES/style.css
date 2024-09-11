@@ -1,0 +1,9 @@
+#box{
+    height: 100%;
+    background-image: url('./sprittes.webp');
+    height: 300px;
+    width: 397px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    /* bg position 0px 0px is syntax */
+}

@@ -1,0 +1,21 @@
+:root{
+    --primary-color:blue;
+    --btn-color: red;
+    --bg-color:aliceblue;
+}
+.box{
+    /* background-color: blue; */
+    background-color: var(--primary-color);
+    height: 200px;
+    /* width: 70%; */
+    width: calc(100% - 200px);
+}
+a{
+    margin: 30px;
+    padding: 10px;
+    color: var(--bg-color);
+    /* color: aliceblue; */
+    text-decoration: none;
+    background-color: var(--btn-color);
+    /* background-color: red; */
+}

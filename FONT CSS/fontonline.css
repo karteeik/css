@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "abc sddf";
+    src: url('Roboto/Roboto-BoldItalic.ttf');
+}
+p{
+    font-family: "abc sddf";
+}

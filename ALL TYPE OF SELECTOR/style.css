@@ -1,0 +1,86 @@
+/*  (1) simple selector
+        (i) universal selector 
+        (ii) id selector
+        (iii) class selector
+        (iv) element selector
+        (v) grouping selector
+
+    (2)combinator selector
+        (i)descendant selector(space)
+        (ii)child selector(>)
+        (iii)adgdcent sibling selector(+)
+        (iv)general sibling selector(~)
+
+    (3)attribute selector [type='text']
+
+    (4)pseudo class(:)
+
+    (5)pseudo elements(::)
+
+(1)simple selector
+(i) universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*  (ii) id selector*/
+#box{
+    background-color: blue;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+/* (iii) class selector */
+.box1{
+    text-decoration: underline;
+}
+/* (iv) element selector */
+p{
+    border: 5px solid red;
+}
+/* (v) grouping selector */
+h1,p{
+    background-color: chartreuse;
+}
+
+/* (2) combinator selector
+(i)descendant selector(space) 
+*/
+div.box p{
+    text-transform: capitalize;
+}
+/* (ii) child selector(>) */
+div.box>p{
+    color: blue;
+}
+/* (iii) adjdent sibling selector(+) */
+div.box1 h1+p{
+    color: chocolate;
+}
+/* (iv) general sibling selector(~) */
+div.box1 h1~p{
+    color: blue;
+}
+
+/*  (3) attribute selector */
+input[type='text']{
+    border: 5px solid red;
+}
+/* (4) pseudo class selector(:) */
+a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+/* (5) pseudo element selector(::)
+    (i) ::after 
+    (ii) ::before
+    (iii) ::first-letter
+    (iv) ::first-line
+    (v) ::selection
+    (vi) ::placeholder
+    */
+::selection{
+    background-color: black;
+}
