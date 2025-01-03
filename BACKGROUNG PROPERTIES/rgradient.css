@@ -7,7 +7,7 @@
     margin: 50px auto;
     padding: 20px;
     text-transform: capitalize;
-    background-image: radial-gradient(circle at bottom, yellow,red,green,blue);
+    background-image: radial-gradient(circle at top, yellow 30%,red 20%,green 50%,blue 60%);
 }
 h1{
     padding: 20px 0px;

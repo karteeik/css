@@ -9,3 +9,9 @@
     margin: 20px;
     padding: 10px 0px;
 }
+h1{
+    font-size: 50px;
+    font-weight: 90px;
+    -webkit-text-stroke: 4px black;
+    color: transparent;
+}

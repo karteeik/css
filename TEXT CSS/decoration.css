@@ -12,7 +12,7 @@ p{
     text-decoration: underline black solid;
 }
 b{
-    text-shadow: 2px 2px 8px blue;
+    text-shadow: 2px 2px 12px red;
     /*  h-offset
         v-offset
         blur
@@ -20,12 +20,12 @@ b{
 }
 .box{
     width: 400px;
-    line-height: 30px;
-    writing-mode: vertical-rl;
+    line-height: 40px;
+    writing-mode: vertical-lr;
 }
 .b1{
-    white-space: nowrap;
-    /* pre  */
+    white-space: pre;
+    /* pre normal */
 }
 h3{
     width: 400px;

@@ -20,7 +20,6 @@
 }
 .b5{
     background-image: repeating-conic-gradient(red 0deg,red 20deg,yellow 20deg,yellow 30deg);
-
 }
 .b6{
     background-image: repeating-conic-gradient(yellow 0deg,yellow 90deg,black 90deg,black 180deg);

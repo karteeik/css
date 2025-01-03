@@ -3,13 +3,13 @@
     padding: 0;
 }
 .main{
-    margin: 50px;
+    margin: 10px;
     width: 1000px;
     float: left;
     outline: 4px solid rebeccapurple;
-    outline-offset: -4px;
+    outline-offset: -4px; 
 }
-.main img,p{
+img,p{
     width: 250px;
     height: 250px;
     float: left;
