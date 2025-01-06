@@ -1,7 +1,15 @@
 @font-face {
-    font-family: "abc sddf";
+    font-family: "abc sdd";
     src: url('Roboto/Roboto-BoldItalic.ttf');
 }
+
+@font-face {
+    font-family: "abc efg";
+    src: url('Rubik_Vinyl/RubikVinyl-Regular.ttf');
+}
+i{
+    font-family: "abc efg";
+}
 p{
-    font-family: "abc sddf";
+    font-family: "abc sdd";
 }

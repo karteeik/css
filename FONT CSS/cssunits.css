@@ -1,8 +1,8 @@
 /* absolute - cm,mm,inch,px,pt,pc
-   relative - em,rem,vh,vw,%  */
+   relative - em,rem,vh,vw,% (relative means depended on absolute) */
 html{
     font-size: 15px;
-}
+}   
 .parent{
     width: 50vw;
     height: 50vh;
@@ -20,5 +20,5 @@ html{
     /* 15px*2rem */
 }
 .second{
-    font-size: 4rem;
+    font-size: 3rem;
 }
