@@ -1,4 +1,7 @@
-div.one {
+/* display: block (new line,full width,custmize height-width)
+            inline (no new line,no full width,no custmize height-width)
+            inline-block (no new line,no full width,custmize height-width)*/
+.one {
   color: blue;
   font-weight: bolder;
   text-transform: capitalize;
@@ -6,6 +9,9 @@ div.one {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border: 2px solid red;
   display: inline;
+  height: 100px;
+  width: 50%;
+  /* not apply height and width */
 }
 /* #text{
     display: none;

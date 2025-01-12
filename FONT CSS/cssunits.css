@@ -1,5 +1,9 @@
 /* absolute - cm,mm,inch,px,pt,pc
    relative - em,rem,vh,vw,% (relative means depended on absolute) */
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     font-size: 15px;
 }   

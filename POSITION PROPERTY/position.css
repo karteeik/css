@@ -1,3 +1,8 @@
+ /*position: static(by default)
+             relative
+             fixed
+             absolute   
+    there are four property every position used (top,bottom,left,right)  */
 #parent{
     border: 2px solid black;
     width: 50%;
@@ -34,6 +39,6 @@
     background-color: blue;
     display: inline-block;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
 }
