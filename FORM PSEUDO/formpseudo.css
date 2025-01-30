@@ -6,8 +6,6 @@
 }
 .mainbox{
     width: 400px;
-    background-color: black;
-    color: wheat;
     height: auto;
     margin: 40px auto;
     padding: 20px;
@@ -20,10 +18,14 @@ h1{
     background-color: blueviolet;
 }
 input:focus{
-    border: 5px solid red;
+    border: 15px solid red;
 }
-input:checked{
+input[type='radio']:checked + label{
     box-shadow: 0 0 0 3px red;
+    border: 2px solid black;
+}
+input[type='checkbox']:checked + label{
+    color: yellowgreen;
 }
 input:disabled{
     border: 5px solid gold;

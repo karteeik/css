@@ -14,9 +14,21 @@ p::first-line{
     color: blue;
 }
 ::marker{
-    color: red;
+    color: blue;
 }
 ::selection{
     color: red;
     background-color: yellow;
+}
+:root{
+    --bgcolor:blue;
+}
+h2:hover{
+    background-color: var(--bgcolor);
+}
+h3:hover{
+    background-color: var(--bgcolor);
+}
+h4:hover{
+    background-color: var(--bgcolor);
 }

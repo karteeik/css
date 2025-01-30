@@ -11,25 +11,13 @@ body{
     height: inherit;
     width: inherit;
     background-color: yellow;
-    transform: perspective(300px) rotate3d(50,50,30,20deg);
-}
-.cover1{
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    margin: 50px;
+    transform: perspective(300px) rotate3d(50,50,50,20deg);
 }
 .box1{
     height: inherit;
     width: inherit;
     background-color: yellow;
     transform: perspective(300px) translate3d(50px,50px,-40px);
-}
-.cover3{
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-    margin: 50px;
 }
 .box3{
     height: inherit;

@@ -54,6 +54,7 @@ div.box p{
 /* (ii) child selector(>) */
 div.box>p{
     color: blue;
+    text-transform: uppercase;
 }
 /* (iii) adjdent sibling selector(+) */
 div.box1 h1+p{
@@ -61,11 +62,12 @@ div.box1 h1+p{
 }
 /* (iv) general sibling selector(~) */
 div.box1 h1~p{
-    color: blue;
+    color:red;
+    background-color: #fff;
 }
 
 /*  (3) attribute selector */
-input[type='text']{
+input[type='text']:hover{
     border: 5px solid red;
 }
 /* (4) pseudo class selector(:) */

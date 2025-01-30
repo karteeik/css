@@ -12,6 +12,7 @@
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
+    grid-gap: 30px;
 }
 .box{
     background-color: brown;

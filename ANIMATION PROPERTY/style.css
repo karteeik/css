@@ -16,7 +16,7 @@
     animation-name: words;
     animation-duration: 2s;
     /* animation-delay: 2s; */
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
     /* animation-direction: reverse; */
 }
 .box1{

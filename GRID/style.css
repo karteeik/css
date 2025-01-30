@@ -13,8 +13,8 @@
     grid-column-gap: 20px;
     grid-row-gap: 30px;
     justify-content: center;
-    /* height: 400px; */
-    align-content: center;
+    height: 400px;
+    align-content: space-around;
 }
 .grid-box{
     background-color: blue;

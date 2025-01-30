@@ -4,6 +4,7 @@
     font-weight: bolder;
     font-size: xx-large;
     position: relative;
+    border: 2px solid;
 }
 .sq1{
     width: 200px;

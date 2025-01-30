@@ -7,14 +7,12 @@
 .flex-box{
     background-color: brown;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* flex-flow: wrap row; */
-    justify-content: space-between;
-    /* horizontaal work */
-    align-items: center;
-    align-content: center;
-    /* vertical works */
+    flex-direction: row;   /*row,reverse-row,column,reverse-column*/
+    flex-wrap: wrap;   /*nowrap(by default),wrap,wrap-reverse*/
+    flex-flow: wrap row;   /*flex-direction + flex-wrap*/
+    justify-content: flex-end;      /*  horizontal adjust */
+    align-items: flex-end;   /*stretch(by default)*/
+    align-content: space-around;    /* vertical works */
     height: 70vh;
 }
 .box{
